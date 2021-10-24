@@ -6,7 +6,7 @@ module.exports = class Remount extends Plugin {
     // Fetch cumcord with caching disabled (for latest builds!!!)
     const noStore = { cache: "no-store" };
     const response = await fetch(
-      "https://cors.bridged.cc/https://hg.sr.ht/~creatable/Cumcord/raw/dist/build.js?rev=stable",
+      "https://raw.githubusercontent.com/Cumcord/Cumcord/master/dist/build.js",
       noStore
     );
     const text = await response.text();

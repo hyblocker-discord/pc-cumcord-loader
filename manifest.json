@@ -3,5 +3,6 @@
   "description": "Loads Cumcord",
   "author": "Hyblocker",
   "version": "1.0.1",
-  "license": "WTFPL"
+  "license": "WTFPL",
+  "dependencies": [ "pc-commands" ]
 }
